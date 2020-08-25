@@ -14,7 +14,10 @@
 <body>
     <div class="grid-container">
         <nav class="menu" data-menu="suave">
-            <ul>
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">
+                <div class="contorno-menu"></div>
+            </button>
+            <ul data-menu="list" id="menu">
                 <li><a href="#animais">Animais</a></li>
                 <li data-dropdown>
                     <a href="sobre.html">Sobre</a>
@@ -145,7 +148,7 @@
 
         <section class="grid-section contato" data-anime="scroll" id="contato">
             <h1 class="titulo">Contato</h1>
-            <div class="mapa" data-tooltip aria-label="Endereço Próximo ao estacionamento.">
+            <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
                 <img src="img/mapa.png">
             </div>
             <ul class="dados">
@@ -155,15 +158,15 @@
                 <li>Rio de Janeiro - RJ</li>
             </ul>
         </section>
-    </div>
 
-    <footer class="copy">
-        <p>Todos os direitos reservados.</p>
-    </footer>
+        <footer class="copy">
+            <p>Todos os direitos reservados.</p>
+        </footer>
+    </div>
 
     <section class="modal-container" data-modal="container">
         <div class="modal">
-            <button data-modal="fechar" class="fechar">x</button>
+            <button data-modal="fechar" class="fechar">X</button>
             <form action="">
                 <label for="email">E-mail</label>
                 <input type="text" name="email" id="email">
