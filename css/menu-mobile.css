@@ -12,6 +12,7 @@
         width: 80px;
         cursor: pointer;
         border: none;
+        z-index: 300;
         background: none;
     }
 
