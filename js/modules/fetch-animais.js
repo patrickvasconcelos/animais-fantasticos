@@ -7,7 +7,6 @@ export default function initFetchAnimais() {
             .then((response) => response.json())
             .then((animais) =>
                 animais.forEach((animal) => {
-                    console.log(animal);
                     numerosGrid.appendChild(createAnimal(animal));
                     initAnimaNumeros();
                 })
