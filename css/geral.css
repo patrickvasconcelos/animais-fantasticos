@@ -316,3 +316,18 @@ body::-webkit-scrollbar-track {
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
+
+[data-semana]::after {
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #ff1e1e;
+    border-radius: 2px;
+    margin-left: 4px;
+    border: 1px solid #000;
+}
+
+[data-semana].aberto::after {
+    background: #1eff1e;
+}
