@@ -5,7 +5,6 @@ export default class MenuMobile {
     this.menuButton = document.querySelector(menuButton);
     this.menuButtonHamburger = document.querySelector(menuButtonHamburger);
     this.menuList = document.querySelector(menuList);
-    console.log(this.menuList);
 
     if (events === undefined) this.events = ['click', 'touchstart'];
     else this.events = events;
