@@ -51,11 +51,11 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
     font-size: 1.2em;
     color: #ffffff;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: 'IBM Plex Mono', monospace;
     cursor: pointer;
 }
 .modal label {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: 'IBM Plex Mono', monospace;
     display: block;
     font-weight: bold;
     margin: 1rem 0 0.5rem 0;
@@ -67,7 +67,7 @@
     box-sizing: border-box;
 }
 
-.modal button[type="submit"] {
+.modal button[type='submit'] {
     display: block;
     background: #ee5544;
     border: none;
@@ -75,7 +75,7 @@
     padding: 0.7rem 2rem;
     font-size: 1rem;
     color: #ffffff;
-    font-family: "IBM Plex Mono", monospace;
+    font-family: 'IBM Plex Mono', monospace;
     margin-top: 1rem;
     font-weight: bold;
 }

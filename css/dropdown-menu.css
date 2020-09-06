@@ -31,7 +31,7 @@
     z-index: 200;
 }
 .dropdown-menu::before {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     top: -10px;
